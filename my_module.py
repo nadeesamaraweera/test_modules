@@ -1,4 +1,7 @@
 def add(a,b):
-    result = a+b
-    return result
+    return a+b
+
+if __name__ == "__main__":
+    print("This will excute if this file runs directly")
+    print(add(3,5))
 

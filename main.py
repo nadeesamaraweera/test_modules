@@ -10,9 +10,7 @@
 
 
 # print(my_module.add(3,5))
+# from my_module import*  # it wil import all names from a module
 
-# from my_module import add
-from my_module import*  # it wil import all names from a module
-
-
+from my_module import add
 print(add(3,5))
